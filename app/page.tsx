@@ -222,42 +222,7 @@ export default function Home() {
             <h1><span>소상공인 소자본창업</span>을 위한<br />합리적인 비용 제시</h1>
             <p>과도한 초기 투자 없이 안정적으로 창업을 시작해보세요</p>
           </div>
-
-          {/* <div>
-            <h2>컨설팅 국내업체 중 가장 합리적인 금액</h2>
-            <p>창업지원 (30-40평기준 방3개 3천만원대)</p>
-            <h3>불필요한 프랜차이즈 개설 비용은 받지 않습니다!</h3>
-            <div>
-              <section>
-                <div>
-                  <Image src="/icons/" alt="가맹비 무료" width={50} height={50} />
-                </div>
-                <p>가맹비 무료</p>
-              </section>
-              <section>
-                <div>
-                  <Image src="/icons/" alt="로얄티 무료" width={50} height={50} />
-                </div>
-                <p>로얄티 무료</p>
-              </section>
-              <section>
-                <div>
-                  <Image src="/icons/" alt="상표보증금 무료" width={50} height={50} />
-                </div>
-                <p>상표보증금 무료</p>
-              </section>
-            </div>
-            <div>
-                <ul>
-                  <li>인테리어</li>
-                  <li>일반형/퀄리티형 시세보다 저렴하게!<br/>(자율 가능)</li>
-                </ul>
-                <ul>
-                  <li>게임 구매 및 설치</li>
-                  <li>원하는 사이즈에 맞게 진행</li>
-                </ul>
-            </div>
-          </div> */}
+          
           <div className="mo">
             <Image src="/images/비용_mo.png" alt="비용" width={1000} height={2000} quality={100} />
           </div>

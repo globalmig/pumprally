@@ -79,7 +79,6 @@ export default function InquireForm() {
             if (data.success) {
                 alert("문의가 정상적으로 접수되었습니다.");
                 router.push("/");
-                window.location.reload();
             } else {
                 alert("문자 발송 중 오류가 발생했습니다.");
             }

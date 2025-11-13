@@ -214,6 +214,10 @@ footer>div>:last-child img {
 
 @media screen and (min-width: 1366px) {
 
+    input, textarea {
+        font-size: 1.2rem;
+    }
+
     p {
         font-size: 1.2rem;
     }
@@ -235,6 +239,7 @@ footer>div>:last-child img {
     .yellow-box p {
         width: 52%;
         margin: auto;
+        font-size: 1.3rem;
     }
 
     .pink-box {

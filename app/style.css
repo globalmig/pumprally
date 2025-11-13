@@ -96,9 +96,9 @@ main>div>ul li span {
 .slider2 .slide-item>div>:last-child div {
     position: absolute;
     width: 100%;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 
@@ -149,6 +149,7 @@ main>div>ul li span {
 .competitive>div>section>:first-child>div {
     width: 100%;
     max-width: 580px;
+    margin: 0 auto;
 }
 
 .competitive>div>section:last-of-type>:first-child>div {
@@ -214,6 +215,11 @@ main>div>ul li span {
     font-family: "SB_M";
 }
 
+.interior>div>:nth-child(2)>:nth-child(2) h1 {
+    font-family: "SB_M";
+    font-weight: 300;
+}
+
 .interior>div>:nth-child(2)>:last-child {
     width: 100%;
     margin: 20px 0 50px;
@@ -227,6 +233,7 @@ main>div>ul li span {
 .interior>div>:nth-child(3)>div>div {
     width: 100%;
     max-width: 580px;
+    margin: 0 auto;
 }
 
 .interior>div>:nth-child(3)>div>div img {
@@ -241,6 +248,7 @@ main>div>ul li span {
 .interior>div>:nth-child(4)>div:first-of-type {
     width: 100%;
     max-width: 580px;
+    margin: 0 auto;
 }
 
 .interior>div>:nth-child(4)>div img {
@@ -250,6 +258,7 @@ main>div>ul li span {
 
 .interior>div>:nth-child(4)>:last-child {
     max-width: 580px;
+    margin: 0 auto;
 }
 
 .interior>div>:nth-child(5) {
@@ -449,6 +458,10 @@ main>div>ul li span {
     font-size: 0.8rem;
 }
 
+.inquire>form>:nth-child(4)>div ul {
+    margin: 20px 0;
+}
+
 .inquire>form>:nth-child(4)>div ul li {
     margin: 5px 0;
     font-size: 0.8rem;
@@ -535,12 +548,12 @@ main>div>ul li span {
     }
 
     .slider2 .slide-item>div>:last-child div img {
-    width: 80px;
-}
+        width: 80px;
+    }
 
-.slider2 .slide-item>div>:last-child div p {
-    font-size: 1rem;
-}
+    .slider2 .slide-item>div>:last-child div p {
+        font-size: 1rem;
+    }
 
     .slider2 .slide-item>p {
         margin-top: 25px;
@@ -617,6 +630,10 @@ main>div>ul li span {
         position: relative;
     }
 
+    .interior>div>:nth-child(4)>:last-child p {
+        width: 100%;
+    }
+
     .interior>div>:nth-child(4)>div:first-of-type img {
         border-radius: 30px;
     }
@@ -636,7 +653,8 @@ main>div>ul li span {
     }
 
     .interior>div>:nth-child(5) section p {
-        margin-top: 20px;
+        margin-top: 40px;
+        font-size: 1.3rem;
     }
 
     .interior>div>:last-child h1 {
@@ -657,6 +675,7 @@ main>div>ul li span {
     .interior>div>:last-child>:last-child p {
         width: 50%;
         margin: auto;
+        font-size: 1.3rem;
     }
 
     .slick-dots li button:before {
@@ -713,7 +732,7 @@ main>div>ul li span {
 
     form input::placeholder,
     form textarea::placeholder {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .inquire>form>div {
