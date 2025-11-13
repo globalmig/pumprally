@@ -6,7 +6,7 @@ export default function Header() {
     const handleScroll = (id: string) => {
   const element = document.getElementById(id);
   if (element) {
-    const headerOffset = 90;
+    const headerOffset = 120;
     const elementPosition = element.getBoundingClientRect().top + window.scrollY;
     const offsetPosition = elementPosition - headerOffset;
 

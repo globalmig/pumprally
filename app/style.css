@@ -33,6 +33,10 @@ main>div>ul li span {
     padding: 400px 5% 80px;
 }
 
+.intro>div>:first-child h1 {
+    margin-bottom: 20px;
+}
+
 .intro>div>:first-child h1 span {
     color: #1636FF;
 }
@@ -149,11 +153,10 @@ main>div>ul li span {
 .competitive>div>section>:first-child>div {
     width: 100%;
     max-width: 580px;
-    margin: 0 auto;
 }
 
 .competitive>div>section:last-of-type>:first-child>div {
-    max-width: 380px;
+    width: 100%;
 }
 
 .competitive>div>section>:first-child>div:last-of-type {
@@ -227,13 +230,11 @@ main>div>ul li span {
 
 .interior>div>:nth-child(3)>div {
     gap: 20px;
-    margin: 20px 0 50px;
+    margin: 20px 0;
 }
 
 .interior>div>:nth-child(3)>div>div {
     width: 100%;
-    max-width: 580px;
-    margin: 0 auto;
 }
 
 .interior>div>:nth-child(3)>div>div img {
@@ -242,6 +243,7 @@ main>div>ul li span {
 }
 
 .interior>div>:nth-child(4) {
+    margin-top: 50px;
     gap: 20px;
 }
 
@@ -257,17 +259,16 @@ main>div>ul li span {
 }
 
 .interior>div>:nth-child(4)>:last-child {
-    max-width: 580px;
     margin: 0 auto;
 }
 
 .interior>div>:nth-child(5) {
     margin: 50px 0 80px;
+    justify-content: center;
 }
 
 .interior>div>:nth-child(5) section {
     width: 48%;
-    max-width: 300px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -386,7 +387,7 @@ main>div>ul li span {
 .inquire {
     position: relative;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -490,6 +491,114 @@ main>div>ul li span {
     cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+    main {
+        margin-top: 135px;
+    }
+
+    main>div>ul {
+        left: 50%;
+        top: 137%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .intro>div>:nth-child(2) section {
+        width: 500px;
+        padding: 20px;
+    }
+
+    .slider2 .slide-item>div>:last-child div img {
+        width: 80px;
+    }
+
+    .slider2 .slide-item>div>:last-child div p {
+        font-size: 1rem;
+    }
+
+    .slider1>div video {
+        height: 450px;
+    }
+
+    .competitive>div>section>:first-child>div {
+        width: 48%;
+    }
+
+    .competitive>div>section>:first-child>div:last-of-type {
+        margin-top: 0;
+    }
+
+    .competitive>div>section:last-of-type>:first-child>div {
+        width: 300px;
+    }
+
+    .competitive>div>section:nth-of-type(2)>:first-child>div:first-of-type {
+        width: 30%;
+    }
+
+    .competitive>div>section:nth-of-type(2)>:first-child>div:nth-of-type(2),
+    .competitive>div>section:nth-of-type(2)>:first-child>div:last-of-type {
+        width: 30%;
+        max-width: 380px;
+        margin-top: 0px;
+    }
+
+    .interior>div>:nth-child(2)>:nth-child(2) h2 {
+        font-size: 2rem;
+    }
+
+    .interior>div>:nth-child(2)>:nth-child(2) h1 {
+        font-size: 5rem;
+        font-family: "SB_M";
+        margin-top: 20px;
+    }
+
+    .interior>div>:nth-child(3)>div>div {
+        width: 48%;
+    }
+
+    .interior>div>:nth-child(5) section {
+        width: 350px;
+    }
+
+    .interior>div>:last-child>:last-child {
+        padding: 50px;
+    }
+
+    .price>div>:nth-child(3)>img {
+        width: 90%;
+        max-width: 800px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .inquire>:first-child {
+        width: 40%;
+        top: -7%;
+    }
+
+    .inquire>form {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding: 80px 120px;
+    }
+
+    .inquire>form>:nth-child(4)>:nth-child(2) p {
+        font-size: 1rem;
+    }
+
+    .inquire>form>:nth-child(4)>div ul li {
+        font-size: 1rem;
+    }
+
+    .inquire>form>button {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+}
+
 @media screen and (min-width: 1366px) {
 
     main {
@@ -548,11 +657,11 @@ main>div>ul li span {
     }
 
     .slider2 .slide-item>div>:last-child div img {
-        width: 80px;
+        width: 120px;
     }
 
     .slider2 .slide-item>div>:last-child div p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .slider2 .slide-item>p {
@@ -568,6 +677,10 @@ main>div>ul li span {
 
     .competitive>div>section>:first-child>div:last-of-type {
         margin-top: 0px;
+    }
+
+    .competitive>div>section:last-of-type>:first-child>div {
+        width: 380px;
     }
 
     .competitive>div>section>:last-child {
@@ -587,9 +700,13 @@ main>div>ul li span {
         margin: 20px auto;
     }
 
+    .competitive>div>section:nth-of-type(2)>:first-child>div:first-of-type {
+        width: 380px;
+    }
+
     .competitive>div>section:nth-of-type(2)>:first-child>div:nth-of-type(2),
     .competitive>div>section:nth-of-type(2)>:first-child>div:last-of-type {
-        margin-top: 0px;
+        width: 380px;
     }
 
     .interior>div>:first-child p {
@@ -602,12 +719,14 @@ main>div>ul li span {
 
     .interior>div>:nth-child(2)>:nth-child(2) h1 {
         font-size: 6rem;
-        font-family: "SB_M";
-        margin-top: 20px;
     }
 
     .interior>div>:nth-child(2)>:last-child {
         margin: 40px 0 50px;
+    }
+
+    .interior>div>:nth-child(3)>div>div {
+        width: 580px;
     }
 
     .interior>div>:nth-child(3)>div {
@@ -624,6 +743,7 @@ main>div>ul li span {
     }
 
     .interior>div>:nth-child(4)>:last-child {
+        width: 580px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -643,7 +763,7 @@ main>div>ul li span {
     }
 
     .interior>div>:nth-child(5) section {
-        max-width: 300px;
+        width: 300px;
         margin-bottom: 20px;
         text-align: center;
     }
@@ -700,10 +820,6 @@ main>div>ul li span {
         margin-bottom: 25px;
     }
 
-    .price>div>:nth-child(3)>img {
-        margin: 0 auto;
-    }
-
     .price>div>:nth-child(4)>img {
         margin: 70px auto 150px;
         width: 50px;
@@ -722,7 +838,7 @@ main>div>ul li span {
     .inquire>form {
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
-        padding: 120px 250px 150px;
+        padding: 120px 180px 150px;
     }
 
     .inquire>form input,

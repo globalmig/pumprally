@@ -19,7 +19,7 @@ export default function Slide2() {
       autoplay: true,
       autoplaySpeed: 2500,
       cssEase: "ease-out",
-      slidesToShow: width < 576 ? 1 : width < 992 ? 2 : width < 1200 ? 3 : 4,
+      slidesToShow: width < 576 ? 1 : width < 992 ? 3 : width < 1200 ? 3 : 4,
       slidesToScroll: 1,
       centerMode: width < 576 ? true : false,
       centerPadding: width < 576 ? "50px" : "0px",
@@ -127,7 +127,7 @@ export default function Slide2() {
           </div>
           <div>
             <div>
-              <Image src="/icons/게임소개_농구.png" alt="농구게임 아이콘" width={50} height={50} />
+              <Image src="/icons/게임소개_농구.png" alt="농구게임 아이콘" width={70} height={70} />
               <p>정해진 시간 안에 많은 공을 골대에 넣어 점수를 획득하는 게임으로, 제한 시간 동안의 최고 기록을 도전할 수 있습니다.</p>
             </div>
           </div>

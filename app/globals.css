@@ -136,9 +136,9 @@ article>div>:first-child h1 span {
 
 header {
     position: fixed;
-     z-index: 20;
-     top: 0;
-     left: 0;
+    z-index: 20;
+    top: 0;
+    left: 0;
     background-color: #040424;
     width: 100%;
 }
@@ -212,9 +212,50 @@ footer>div>:last-child img {
     height: auto;
 }
 
+@media screen and (min-width: 768px) {
+
+    .mo {
+        display: none;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    .yellow-box {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .pink-box {
+        padding: 50px;
+    }
+
+    header>div>nav {
+        padding: 25px 5%;
+    }
+
+    header>div>nav ul li {
+        font-size: 1.2rem;
+    }
+
+    footer>div{
+        padding: 50px 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer>div>:last-child {
+        width: 50%;
+        margin: auto 0;
+    }
+
+}
+
 @media screen and (min-width: 1366px) {
 
-    input, textarea {
+    input,
+    textarea {
         font-size: 1.2rem;
     }
 
@@ -255,17 +296,18 @@ footer>div>:last-child img {
     }
 
     article>div {
-        padding: 150px 0 ;
+        padding: 150px 0;
     }
 
     article>div>:first-child h1 {
         font-size: 3.5rem;
     }
 
-     article>div>:first-child p, article>div>:first-child h3 {
+    article>div>:first-child p,
+    article>div>:first-child h3 {
         font-size: 1.2rem;
         margin: 20px 0 70px;
-     }
+    }
 
     /* header */
 
