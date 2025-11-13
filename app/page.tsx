@@ -166,15 +166,15 @@ export default function Home() {
           <div className="display-flex-flow">
             <section>
               <div>
-                <Image src="/images/open.png" alt="동두천 오픈 예정" width={257} height={214} />
+                <Image src="/images/open.png" alt="동두천 11월 오픈" width={257} height={214} />
               </div>
-              <p>동두천<br />오픈 예정</p>
+              <p>동두천<br />11월 오픈</p>
             </section>
             <section>
               <div>
-                <Image src="/images/open.png" alt="천안 불안동 오픈 예정" width={257} height={214} />
+                <Image src="/images/open.png" alt="천안 12월 오픈" width={257} height={214} />
               </div>
-              <p>천안 불안동<br />오픈 예정</p>
+              <p>천안<br />12월 오픈</p>
             </section>
             <section>
               <div>

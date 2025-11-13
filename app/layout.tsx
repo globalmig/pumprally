@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: '펌프랠리',
     description: '소상공인 소자본 창업을 위한 합리적인 LED 발판 업체입니다.',
-    url: '',
+    url: 'https://www.pumprally.com',
     siteName: '펌프랠리',
     images: [
       {
-        url: 'https://www./images/og_image.png',
+        url: 'https://www.pumprally.com/images/og_image.png',
         width: 1200,
         height: 630,
         alt: '펌프랠리',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   other: {
-    'naver-site-verification': '',
+    'naver-site-verification': 'd6b972f7d902376d6c2a516f1f181678c1c9a0e8',
   }
 };
 
