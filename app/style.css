@@ -497,11 +497,12 @@ main>div>ul li span {
     }
 
     main>div>ul {
-        left: 50%;
-        top: 137%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        text-align: center;
+        top: 132%;
+        width: 80%;
+    }
+
+    main>div>ul li {
+        font-size: 1.2rem;
     }
 
     .intro>div>:nth-child(2) section {
@@ -617,10 +618,6 @@ main>div>ul li span {
         top: 125%;
         transform: translate(-50%, -50%);
         width: 1000px;
-    }
-
-    main>div>ul li {
-        font-size: 1.2rem;
     }
 
     main>div>ul li:nth-of-type(2),
