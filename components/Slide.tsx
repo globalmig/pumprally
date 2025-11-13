@@ -2,27 +2,39 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
 
-export default function Slide2() {
-    const settings = {
-    dots: false,
+export interface SlideHandle {
+  next: () => void;
+  prev: () => void;
+}
+
+const Slide = forwardRef<SlideHandle>((_, ref) => {
+  const sliderRef = useRef<Slider>(null);
+
+  useImperativeHandle(ref, () => ({
+    next: () => sliderRef.current?.slickNext(),
+    prev: () => sliderRef.current?.slickPrev(),
+  }));
+
+  const settings = {
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 4000,
     pauseOnHover: false,
   };
 
     return (
-        <Slider {...settings} className="slider1">
+        <Slider ref={sliderRef} {...settings} className="slider1">
                 <div>
                   <video
-                    width="640"
-                    height="360"
+                    width="1000"
+                    height="500"
                     controls
-                    autoPlay
                     muted
                     loop
                     playsInline
@@ -32,10 +44,9 @@ export default function Slide2() {
                 </div>
                 <div>
                   <video
-                    width="640"
-                    height="360"
+                    width="1000"
+                    height="500"
                     controls
-                    autoPlay
                     muted
                     loop
                     playsInline
@@ -45,10 +56,9 @@ export default function Slide2() {
                 </div>
                 <div>
                   <video
-                    width="640"
-                    height="360"
+                    width="1000"
+                    height="500"
                     controls
-                    autoPlay
                     muted
                     loop
                     playsInline
@@ -58,4 +68,7 @@ export default function Slide2() {
                 </div>
               </Slider>
     )
-}
+})
+
+Slide.displayName = 'Slide';
+export default Slide;

@@ -135,7 +135,10 @@ article>div>:first-child h1 span {
 /* header */
 
 header {
-    position: relative;
+    position: fixed;
+     z-index: 20;
+     top: 0;
+     left: 0;
     background-color: #040424;
     width: 100%;
 }
@@ -148,20 +151,19 @@ header>div>div {
 header>div>div>div {
     text-align: left;
     width: 100%;
+    box-sizing: border-box;
+    overflow: visible;
 }
 
 header>div>div>div>img {
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
 header>div>nav {
     width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 20;
     background-color: #1636FF;
-    padding: 10px 5%;
+    padding: 15px 5%;
 }
 
 header>div>nav ul li {
@@ -177,7 +179,7 @@ footer {
 
 footer>div {
     width: 100%;
-    padding: 30px 5% 80px;
+    padding: 50px 5% 80px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -187,12 +189,12 @@ footer>div>div h2 {
 }
 
 footer>div>:first-child>ul {
-    margin: 20px 0 50px;
+    margin: 30px 0 50px;
 }
 
 footer>div>:first-child>ul li {
     font-size: 0.8rem;
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 footer>div>:first-child>ul li:last-of-type {
@@ -230,6 +232,11 @@ footer>div>:last-child img {
         border: 3px solid #FFF71B;
     }
 
+    .yellow-box p {
+        width: 52%;
+        margin: auto;
+    }
+
     .pink-box {
         padding: 70px;
         border-radius: 30px;
@@ -237,7 +244,7 @@ footer>div>:last-child img {
     }
 
     article>div {
-        padding: 200px 0 70px;
+        padding: 150px 0 ;
     }
 
     article>div>:first-child h1 {
@@ -263,6 +270,8 @@ footer>div>:last-child img {
     header>div {
         width: 1200px;
         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
     }
 
     header>div>div {
@@ -294,18 +303,22 @@ footer>div>:last-child img {
     }
 
     footer>div {
-        padding: 50px 0 100px;
+        padding: 80px 0;
         display: flex;
         justify-content: space-between;
     }
 
+    footer>div h2 {
+        font-size: 2rem;
+    }
+
     footer>div>:first-child>ul {
-        margin: 20px 0 50px;
+        margin: 50px 0;
     }
 
     footer>div>:first-child>ul li {
         font-size: 1rem;
-        margin: 8px 0;
+        margin: 10px 0;
     }
 
     footer>div>:first-child>ul li:last-of-type {

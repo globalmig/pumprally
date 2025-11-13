@@ -3,23 +3,31 @@ import InquireForm from "@/components/InquireForm";
 import Slide2 from "@/components/Slide2";
 import Slide from "@/components/Slide";
 import Image from "next/image";
+import { useRef } from "react";
+
+export interface SlideHandle {
+  next: () => void;
+  prev: () => void;
+}
 
 export default function Home() {
+
+  const slideRef = useRef<SlideHandle>(null);
 
   return (
     <>
       <main id="pumprally">
         <div>
           <div>
-            <Image className="mo" src="/images/banner_mo.png" alt="배너" width={500} height={700} />
+            <Image className="mo" src="/images/banner_mo.jpg" alt="배너" width={1024} height={1536} />
             <Image className="pc" src="/images/banner_pc.png" alt="배너" width={2560} height={846} />
           </div>
           <ul>
             <li>
               <span>펌프랠리</span>는 업계 최초 공장직영 협업 계약 시스템 기반으로, <span>모든 LED 제품 KC인증</span>을 완료했습니다.
             </li>
-            <li>발판게임 및 다양한 LED게임들을 <span>중간 마진이 없이</span><br/>직접 고객님께 직접 <span>창업, 컨설팅, 판매, 설치까지</span> 서비스를 제공합니다.</li>
-            <li>개인 창업부터 프랜차이즈 사업까지 여러가지 원하는 방향에 맞춰<br/>
+            <li>발판게임 및 다양한 LED게임들을 <span>중간 마진이 없이</span><br />직접 고객님께 직접 <span>창업, 컨설팅, 판매, 설치까지</span> 서비스를 제공합니다.</li>
+            <li>개인 창업부터 프랜차이즈 사업까지 여러가지 원하는 방향에 맞춰<br />
               국내 모든 업체보다 <span>합리적인 비용</span>으로 제시할 수 있습니다.</li>
             <li>인테리어부터 설비 설치 모든 부분을 원하는 만큼 다양하게 컨설팅이 가능합니다.</li>
           </ul>
@@ -184,7 +192,15 @@ export default function Home() {
           <div>
             <h1>공장 내부 제품 <br /><span>작업 과정</span></h1>
             <div>
-              <Slide />
+              <Slide ref={slideRef} />
+              <div className="display-flex slide-arrow" style={{ gap: "10px", marginTop: "10px" }}>
+                <button onClick={() => slideRef.current?.prev()} className='arrow-prev'>
+                  <Image src="/icons/prev.png" alt="이전" width={20} height={30} />
+                </button>
+                <button onClick={() => slideRef.current?.next()} className='arrow-next'>
+                  <Image src="/icons/next.png" alt="다음" width={20} height={30} />
+                </button>
+              </div>
             </div>
             <div className="yellow-box">
               <p>
@@ -203,7 +219,7 @@ export default function Home() {
         <div>
 
           <div>
-            <h1><span>소상공인 소자본창업</span>을 위한 합리적인 비용 제시</h1>
+            <h1><span>소상공인 소자본창업</span>을 위한<br />합리적인 비용 제시</h1>
             <p>과도한 초기 투자 없이 안정적으로 창업을 시작해보세요</p>
           </div>
 

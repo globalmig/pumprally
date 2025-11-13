@@ -11,7 +11,7 @@ export default function Header() {
     }
     return (
         <header>
-            <div className="display-flex-flow">
+            <div>
                 <div>
                     <div>
                         <Image src="/icons/logo.png" alt="로고" width={245} height={125} />
