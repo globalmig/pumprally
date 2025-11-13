@@ -242,6 +242,12 @@ footer>div>:last-child img {
         font-size: 1.3rem;
     }
 
+    .pink-box p {
+        width: 52%;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
     .pink-box {
         padding: 70px;
         border-radius: 30px;
