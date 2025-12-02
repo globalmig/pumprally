@@ -178,6 +178,12 @@ export default function Home() {
             </section>
             <section>
               <div>
+                <Image src="/images/open.png" alt="원주 1월 오픈" width={257} height={214} />
+              </div>
+              <p>원주<br />1월 오픈</p>
+            </section>
+            <section>
+              <div>
                 <Image src="/images/open.png" alt="춘천 오픈 예정" width={257} height={214} />
               </div>
               <p>춘천<br />오픈 예정</p>
