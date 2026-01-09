@@ -760,13 +760,13 @@ main>div>ul li span {
     }
 
     .interior>div>:nth-child(5) section {
-        width: 240px;
-        margin-bottom: 20px;
+        width: 250px;
+        margin-bottom: 50px;
         text-align: center;
     }
 
     .interior>div>:nth-child(5) section div img {
-        width: 150px;
+        width: 170px;
     }
 
     .interior>div>:nth-child(5) section p {

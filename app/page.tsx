@@ -184,15 +184,21 @@ export default function Home() {
             </section>
             <section>
               <div>
-                <Image src="/images/open.png" alt="춘천 오픈 예정" width={257} height={214} />
+                <Image src="/images/open.png" alt="춘천점 1월 오픈" width={257} height={214} />
               </div>
-              <p>춘천<br />오픈 예정</p>
+              <p>춘천점<br />1월 오픈</p>
             </section>
             <section>
               <div>
-                <Image src="/images/wip.png" alt="양산 계약 진행중" width={257} height={214} />
+                <Image src="/images/open.png" alt="의정부점 2월 오픈" width={257} height={214} />
               </div>
-              <p>양산<br />계약 진행중</p>
+              <p>의정부점<br />2월 오픈</p>
+            </section>
+            <section>
+              <div>
+                <Image src="/images/wip.png" alt="양산 2월 오픈" width={257} height={214} />
+              </div>
+              <p>양산<br />2월 오픈</p>
             </section>
           </div>
           <div>
