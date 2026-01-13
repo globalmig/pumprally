@@ -5,11 +5,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "펌프랠리",
-  description: "컨설팅 국내 업체 중 가장 합리적인 금액으로! 불필요한 프랜차이즈 개설 비용없이 LED발판 게임장 창업을 준비해보세요.",
+  title: "펌프랠리 | LED 발판 게임 · 소상공인 소자본 창업",
+  description: "LED 발판 게임 · 암벽 게임 · 소상공인 소자본 창업, 상담 010-5534-4424",
   openGraph: {
     title: '펌프랠리',
-    description: '소상공인 소자본 창업을 위한 합리적인 LED 발판 업체입니다.',
+    description: 'LED 발판 게임 · 암벽 게임 · 소상공인 소자본 창업, 상담 010-5534-4424',
     url: 'https://www.pumprally.com',
     siteName: '펌프랠리',
     images: [
