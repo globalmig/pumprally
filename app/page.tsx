@@ -19,8 +19,8 @@ export default function Home() {
       <main id="pumprally">
         <div>
           <div>
-            <Image className="mo" src="/images/banner_mo.jpg" alt="배너" width={1024} height={1536} />
-            <Image className="pc" src="/images/banner_pc.png" alt="배너" width={2560} height={846} />
+            <Image className="mo" src="/images/banner_mo.jpg" alt="LED 발판 게임·소상공인 소자본 창업. 펌프랠리" width={1024} height={1536} />
+            <Image className="pc" src="/images/banner_pc.png" alt="LED 발판 게임·소상공인 소자본 창업. 펌프랠리" width={2560} height={846} />
           </div>
           <ul>
             <li>
@@ -78,10 +78,10 @@ export default function Home() {
           <section>
             <div className="display-flex-flow">
               <div>
-                <Image src="/images/competitive_발판.png" alt="발판 게임 이미지" width={670} height={420} />
+                <Image src="/images/competitive_발판.png" alt="발판 게임" width={670} height={420} />
               </div>
               <div>
-                <Image src="/images/competitive_암벽.png" alt="암벽등반 게임 이미지" width={670} height={420} />
+                <Image src="/images/competitive_암벽.png" alt="암벽 게임" width={670} height={420} />
               </div>
             </div>
             <div className="pink-box">
@@ -94,14 +94,14 @@ export default function Home() {
           <section>
             <div className="display-flex-flow">
               <div>
-                <Image className="pc" src="/images/발판게임_pc.png" alt="발판 게임 이미지" width={670} height={420} />
-                <Image className="mo" src="/images/발판게임_mo.png" alt="발판 게임 이미지" width={670} height={420} />
+                <Image className="pc" src="/images/발판게임_pc.png" alt="발판 게임" width={670} height={420} />
+                <Image className="mo" src="/images/발판게임_mo.png" alt="발판 게임" width={670} height={420} />
               </div>
               <div>
-                <Image src="/images/악마의눈.png" alt="악마의 눈 게임 이미지" width={670} height={420} />
+                <Image src="/images/악마의눈.png" alt="악마의 눈" width={670} height={420} />
               </div>
               <div>
-                <Image src="/images/레이저게임.png" alt="레이저 게임 이미지" width={670} height={420} />
+                <Image src="/images/레이저게임.png" alt="레이저 게임" width={670} height={420} />
               </div>
             </div>
             <div className="pink-box">
@@ -123,7 +123,7 @@ export default function Home() {
 
           <div className="display-flex-flow">
             <div>
-              <Image src="/images/kc.jpg" alt="KC정품 인증서" width={670} height={420} />
+              <Image src="/images/kc.jpg" alt="KC정품 인증" width={670} height={420} />
             </div>
             <div>
               <h2>KC 인증된 자재 시공으로<br />안정성과 신뢰성</h2>
@@ -137,16 +137,16 @@ export default function Home() {
           <div>
             <div className="display-flex-flow">
               <div>
-                <Image src="/images/interior_1.png" alt="인테리어 이미지1" width={670} height={420} />
+                <Image src="/images/interior_1.png" alt="인테리어 디자인" width={670} height={420} />
               </div>
               <div>
-                <Image src="/images/interior_2.png" alt="인테리어 이미지2" width={670} height={420} />
+                <Image src="/images/interior_2.png" alt="인테리어 디자인" width={670} height={420} />
               </div>
               <div>
-                <Image src="/images/interior_3.png" alt="인테리어 이미지3" width={670} height={420} />
+                <Image src="/images/interior_3.png" alt="인테리어 디자인" width={670} height={420} />
               </div>
               <div>
-                <Image src="/images/interior_4.png" alt="인테리어 이미지4" width={670} height={420} />
+                <Image src="/images/interior_4.png" alt="인테리어 디자인" width={670} height={420} />
               </div>
             </div>
             <div className="yellow-box">
@@ -156,7 +156,7 @@ export default function Home() {
 
           <div className="display-flex-flow">
             <div>
-              <Image src="/images/design.png" alt="간판 디자인 시안" width={740} height={750} />
+              <Image src="/images/design.png" alt="간판 디자인 시안 제공 예시" width={740} height={750} />
             </div>
             <div className="yellow-box">
               <p>개인자율 인테리어 또한 적극적으로 지원해 드리며, <span>상표 로고 시안과 개설 디자인 설계도를 무상으로 지원</span>해드립니다.</p>
@@ -236,14 +236,14 @@ export default function Home() {
           </div>
           
           <div className="mo">
-            <Image src="/images/비용_mo.png" alt="비용" width={1000} height={2000} quality={100} />
+            <Image src="/images/비용_mo.png" alt="창업 지원 30, 40평 기준 방 3개 3천만원대" width={1000} height={2000} quality={100} />
           </div>
           <div className="pc">
-            <Image src="/images/비용_pc.png" alt="비용" width={800} height={1098} quality={100} />
+            <Image src="/images/비용_pc.png" alt="창업 지원 30, 40평 기준 방 3개 3천만원대" width={800} height={1098} quality={100} />
           </div>
 
           <div>
-            <Image src="/icons/arrow_blue.png" alt="화살표" width={59} height={140} />
+            <Image src="/icons/arrow_blue.png" alt="문의 상담" width={59} height={140} />
           </div>
 
         </div>
