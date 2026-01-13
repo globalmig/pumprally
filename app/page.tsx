@@ -127,7 +127,7 @@ export default function Home() {
             </div>
             <div>
               <h2>KC 인증된 자재 시공으로<br />안정성과 신뢰성</h2>
-              <h1>UP!</h1>
+              <h2>UP!</h2>
             </div>
             <div className="yellow-box">
               <p>업계 최초, 공장 직영 협업 계약을 통해 LED 포함한 모든 시공 자재는 <span>KC 인증</span>을 완료한 정품만을 사용합니다.</p>

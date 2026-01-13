@@ -213,12 +213,12 @@ main>div>ul li span {
     margin: auto 0;
 }
 
-.interior>div>:nth-child(2)>:nth-child(2) h2 {
+.interior>div>:nth-child(2)>:nth-child(2) h2:first-of-type {
     font-size: 1rem;
     font-family: "SB_M";
 }
 
-.interior>div>:nth-child(2)>:nth-child(2) h1 {
+.interior>div>:nth-child(2)>:nth-child(2) h2:last-of-type {
     font-family: "SB_M";
     font-weight: 300;
 }
@@ -710,11 +710,11 @@ main>div>ul li span {
         margin-top: 25px;
     }
 
-    .interior>div>:nth-child(2)>:nth-child(2) h2 {
+    .interior>div>:nth-child(2)>:nth-child(2) h2:first-of-type {
         font-size: 3rem;
     }
 
-    .interior>div>:nth-child(2)>:nth-child(2) h1 {
+    .interior>div>:nth-child(2)>:nth-child(2) h2:last-of-type {
         font-size: 6rem;
     }
 
