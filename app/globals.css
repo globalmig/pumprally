@@ -102,8 +102,12 @@ article>div>:first-child {
     margin-bottom: 50px;
 }
 
-article>div>:first-child h1,
-article>div>:first-child h1 span {
+article>div>:first-child h2 {
+    font-size: 2rem;
+}
+
+article>div>:first-child h2,
+article>div>:first-child h2 span {
     font-family: "SB_M";
     font-weight: 300;
 }
@@ -299,7 +303,7 @@ footer>div>:last-child img {
         padding: 150px 0;
     }
 
-    article>div>:first-child h1 {
+    article>div>:first-child h2 {
         font-size: 3.5rem;
     }
 

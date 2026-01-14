@@ -33,11 +33,11 @@ main>div>ul li span {
     padding: 400px 5% 80px;
 }
 
-.intro>div>:first-child h1 {
+.intro>div>:first-child h2 {
     margin-bottom: 20px;
 }
 
-.intro>div>:first-child h1 span {
+.intro>div>:first-child h2 span {
     color: #1636FF;
 }
 
@@ -140,7 +140,7 @@ main>div>ul li span {
     display: none !important;
 }
 
-.competitive>div>:first-child h1 span {
+.competitive>div>:first-child h2 span {
     color: #FC46CE;
 }
 
@@ -190,7 +190,7 @@ main>div>ul li span {
     margin-top: 20px;
 }
 
-.interior>div>:first-child h1 span {
+.interior>div>:first-child h2 span {
     color: #FFF71B;
 }
 
@@ -287,13 +287,14 @@ main>div>ul li span {
     text-align: center;
 }
 
-.interior>div>:last-child h1 {
+.interior>div>:last-child h2 {
     margin-bottom: 50px;
     font-family: "SB_M";
     font-weight: 300;
+    font-size: 2rem;
 }
 
-.interior>div>:last-child h1 span {
+.interior>div>:last-child h2 span {
     color: #FFF71B;
     font-family: "SB_M";
 }
@@ -364,11 +365,11 @@ main>div>ul li span {
     position: relative;
 }
 
-.price>div>:first-child h1 {
+.price>div>:first-child h2 {
     margin-bottom: 20px;
 }
 
-.price>div>:first-child h1 span {
+.price>div>:first-child h2 span {
     color: #1636FF;
 }
 
@@ -545,11 +546,11 @@ main>div>ul li span {
         margin-top: 0px;
     }
 
-    .interior>div>:nth-child(2)>:nth-child(2) h2 {
+    .interior>div>:nth-child(2)>:nth-child(2) h2:first-of-type {
         font-size: 2rem;
     }
 
-    .interior>div>:nth-child(2)>:nth-child(2) h1 {
+    .interior>div>:nth-child(2)>:nth-child(2) h2:last-of-type {
         font-size: 5rem;
         font-family: "SB_M";
         margin-top: 20px;
@@ -774,7 +775,7 @@ main>div>ul li span {
         font-size: 1.3rem;
     }
 
-    .interior>div>:last-child h1 {
+    .interior>div>:last-child h2 {
         margin-bottom: 80px;
         font-size: 3rem;
     }
@@ -813,7 +814,7 @@ main>div>ul li span {
         height: 600px;
     }
 
-    .price>div>:first-child h1 {
+    .price>div>:first-child h2 {
         margin-bottom: 25px;
     }
 

@@ -38,10 +38,10 @@ export default function Home() {
         <div>
 
           <div>
-            <h1>
+            <h2>
               <span>누구나 즐기는</span><br />
               혁신 게임 공간!
-            </h1>
+            </h2>
             <p>가족, 청소년, 커플 등 모든 연령층이 즐길 수 있는 깨끗하고 쾌적한 실내 게임 공간을 제공합니다.</p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Home() {
         <div>
 
           <div>
-            <h1> 펌프랠리의 <span>경쟁력</span></h1>
+            <h2> 펌프랠리의 <span>경쟁력</span></h2>
             <h3>언제까지 프랜차이즈의 과한 비용과
               부당한 조건으로 사업의 본질을 떠나
               초기 부담과 지속적인 부담을 초래하는
@@ -117,7 +117,7 @@ export default function Home() {
       <article className="interior" id="interior">
         <div>
           <div>
-            <h1>믿고 맡기는<br /><span>맞춤 설계 인테리어</span></h1>
+            <h2>믿고 맡기는<br /><span>맞춤 설계 인테리어</span></h2>
             <p>함께 창업주와 성장하는 맞춤 설계를 통해, 믿고 맡길 수 있는 인테리어 서비스를 제공합니다.</p>
           </div>
 
@@ -202,7 +202,7 @@ export default function Home() {
             </section>
           </div>
           <div>
-            <h1>공장 내부 제품 <br /><span>작업 과정</span></h1>
+            <h2>공장 내부 제품 <br /><span>작업 과정</span></h2>
             <div>
               <Slide ref={slideRef} />
               <div className="display-flex slide-arrow" style={{ gap: "10px", marginTop: "10px" }}>
@@ -231,7 +231,7 @@ export default function Home() {
         <div>
 
           <div>
-            <h1><span>소상공인 소자본창업</span>을 위한<br />합리적인 비용 제시</h1>
+            <h2><span>소상공인 소자본창업</span>을 위한<br />합리적인 비용 제시</h2>
             <p>과도한 초기 투자 없이 안정적으로 창업을 시작해보세요</p>
           </div>
           
